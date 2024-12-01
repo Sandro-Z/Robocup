@@ -1,0 +1,20 @@
+TypeHint：类型提示，用于提示函数接受变量的类型以及返回值的类型
+因为python是动态语言，在使用变量前无需声明类型便可使用，但是函数内部的操作可能是只能针对某种特定类型的变量，若输入错误会产生TypeError
+所以TypeHint被用来提示变量的类型，增加可读性
+基本的写法为：def f(x:Type1):->Type2 表示参数x应为Type1，输出类型为Type2
+早期的版本中，TypeHint需要导入typing模块才可使用，但最新版中基本类型：int，str等可以直接使用。
+python解释器会完全忽略TypeHint，所以不会触发错误的输入即使不符合TypeHint指定的类型也不会报错
+例如：
+
+def say_hi(name: str) -> str:
+    return f'Hi {name}'
+
+greeting = say_hi('John')
+print((greeting)
+
+输出：
+Hi John
+但是IDE（比如PyCharm）会根据TypeHint来提供对应的自动补全和错误检查等内容，如果不加类型提示，默认变量类型为Any，而加了类型提示后，
+诸如类的属性，方法等便会出现在自动补全中，可以增加编程的效率。
+
+（第3题之前做过了，这里不做）

@@ -1,0 +1,12 @@
+train: C:\Users\zcasp\PycharmProjects\Robocup\MachineLearn\train\image
+test: C:\Users\zcasp\PycharmProjects\Robocup\MachineLearn\test\image
+val: C:\Users\zcasp\PycharmProjects\Robocup\MachineLearn\valid\image
+
+train_label_dir: C:\Users\zcasp\PycharmProjects\Robocup\MachineLearn\train\label
+val_label_dir: C:\Users\zcasp\PycharmProjects\Robocup\MachineLearn\valid\label
+#Classes
+nc: 12
+
+#classes names
+#replace all class names list with your classes names
+names: ['water', 'cola', 'sprite', 'orange juice', 'biscuit','chip','lays','bread','cookie','handwash','dishsoap','shampoo']
