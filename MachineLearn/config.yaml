@@ -1,9 +1,7 @@
-train: C:\Users\zcasp\PycharmProjects\Robocup\MachineLearn\train\image
-test: C:\Users\zcasp\PycharmProjects\Robocup\MachineLearn\test\image
-val: C:\Users\zcasp\PycharmProjects\Robocup\MachineLearn\valid\image
+train: D:\zcasp\Documents\GitHub\Robocup\MachineLearn\images\train
+test: D:\zcasp\Documents\GitHub\Robocup\MachineLearn\images\val
+val: D:\zcasp\Documents\GitHub\Robocup\MachineLearn\test_images
 
-train_label_dir: C:\Users\zcasp\PycharmProjects\Robocup\MachineLearn\train\label
-val_label_dir: C:\Users\zcasp\PycharmProjects\Robocup\MachineLearn\valid\label
 #Classes
 nc: 12
 
