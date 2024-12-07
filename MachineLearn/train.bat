@@ -1,0 +1,1 @@
+yolo task=detect mode=train model=weights/yolov8n.pt data=./config.yaml batch=16 epochs=10 imgsz=640 workers=16 device=0
